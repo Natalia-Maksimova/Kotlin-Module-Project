@@ -1,3 +1,9 @@
 fun main(args: Array<String>) {
-    println("Hello World!")
+
+    val archives: MutableList<Archive> = mutableListOf()
+
+    while(true) {
+        println("0. Создать архив")
+        Menu.show(archives)
+    }
 }
